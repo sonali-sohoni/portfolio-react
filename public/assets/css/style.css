@@ -8,9 +8,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+:root{
+  --textColor :#294048;
+}
 body {
 	font-family: "Open Sans", sans-serif;
-	color: #444444;
+	/* color: #444444; */
+   --textColor :#294048;
 }
 
 a {
@@ -436,7 +441,7 @@ h6 {
 	}
 }
 @media (max-width: 992px) {
-	#hero:before {
+	#content-area:before {
 		content: "";
 		background: rgba(255, 255, 255, 0.8);
 		position: absolute;
@@ -445,14 +450,28 @@ h6 {
 		left: 0;
 		right: 0;
 	}
-	#hero h1 {
+	.content-area h1 {
 		font-size: 28px;
 		line-height: 36px;
 	}
-	#hero h2 {
+	.content-area h2 {
 		font-size: 18px;
 		line-height: 24px;
 	}
+  .content-area .content p {
+	font-weight: 500;
+	font-size:16px;
+	color: #222222;
+}
+
+}
+
+@media (min-width: 500px) {
+    .content-area .content p {
+	font-weight: 500;
+	font-size:16px;
+	color: #222222;
+}
 }
 
 /*--------------------------------------------------------------
@@ -555,6 +574,7 @@ section {
 	color: #222222;
 }
 
+
 .content-area .content p:last-child {
 	margin-bottom: 0;
 }
@@ -598,7 +618,7 @@ section {
 	margin-bottom: 5px;
 	font-weight: 400;
 	color: #333;
-  font-size :1rem;
+	font-size: 1rem;
 }
 
 .skill-icon {
@@ -950,14 +970,16 @@ section {
 	font-size: 20px;
 	color: #fff;
 	font-weight: 600;
+  opacity:1
 }
-.portfolio .portfolio-wrap .portfolio-info p {
+.portfolio .portfolio-wrap .projectTech{
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 14px;
 	text-transform: uppercase;
 	padding: 0;
 	margin: 0;
 	font-style: italic;
+	list-style-type: none;
 }
 .portfolio .portfolio-wrap .portfolio-links {
 	text-align: center;
@@ -1042,7 +1064,11 @@ section {
 .portfolio-details .portfolio-description p {
 	padding: 0;
 }
-
+.bottom-project-name-holder span{
+  
+  background-color: #444444;
+  
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

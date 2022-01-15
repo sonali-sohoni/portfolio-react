@@ -14,7 +14,7 @@ const About = () => {
 					</div>
 					<div className="col-lg-8 pt-4 pt-lg-0 content">
 						<h3>I am a Full Stack Web Developer</h3>
-						<p className="about-me-desc">
+						<p >
 							Hello I'm Sonali Sohoni, currently working as a Software Developer
 							at Commercial Business Systems,Inc. I have over 8 years of
 							software development experience in building scalable web
