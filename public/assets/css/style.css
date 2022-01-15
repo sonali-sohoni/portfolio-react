@@ -1,21 +1,15 @@
-/**
-* Template Name: Kelly - v4.7.0
-* Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
-:root{
-  --textColor :#294048;
+:root {
+	--textColor: #294048;
+	--headerColor: #4d100b;
+	--bodycolor: #fff;
+  --baseColor:#e9e8e6;
+  --navColor:#f3f3f3;
+  --activeNav:#34b7a7
 }
 body {
 	font-family: "Open Sans", sans-serif;
 	/* color: #444444; */
-   --textColor :#294048;
+	color: var(--textColor);
 }
 
 a {
@@ -46,10 +40,10 @@ h6 {
 	}
 }
 
-/*--------------------------------------------------------------
+/* /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
-#preloader {
+/* #preloader {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -90,11 +84,11 @@ h6 {
 	100% {
 		transform: rotate(360deg);
 	}
-}
+} */
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
-.back-to-top {
+/* .back-to-top {
 	position: fixed;
 	visibility: hidden;
 	opacity: 0;
@@ -119,16 +113,18 @@ h6 {
 .back-to-top.active {
 	visibility: visible;
 	opacity: 1;
-}
+} */
 
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-	background: #e9e8e6;
+	/* background: #e9e8e6; */
+  background-color: var(--headerColor);
 	box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
 	z-index: 997;
 	padding: 15px 0;
+  color:#e9e8e6
 }
 #header .logo {
 	font-size: 32px;
@@ -140,7 +136,8 @@ h6 {
 	text-transform: uppercase;
 }
 #header .logo a {
-	color: #222222;
+	/* color: #222222; */
+  color:var(--baseColor)
 }
 #header .logo img {
 	max-height: 40px;
@@ -158,7 +155,8 @@ h6 {
 	padding-right: 15px;
 }
 .header-social-links a {
-	color: #6f6f6f;
+	/* color: #6f6f6f; */
+  color:#f3f3f3;
 	padding-left: 6px;
 	display: inline-block;
 	line-height: 0px;
@@ -197,7 +195,8 @@ h6 {
 	font-family: "Raleway", sans-serif;
 	font-size: 15px;
 	font-weight: 600;
-	color: #888888;
+	/* color: #888888; */
+  color:var(--navColor);
 	white-space: nowrap;
 	transition: 0.3s;
 	position: relative;
@@ -224,13 +223,13 @@ h6 {
 .navbar li:hover > a:before,
 .navbar .active:before {
 	visibility: visible;
-	width: 25px;
+	width: 45px;
 }
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-	color: #222222;
+	color: var(--activeNav);
 }
 .navbar .dropdown ul {
 	display: block;
@@ -390,13 +389,13 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
+/* #hero {
 	width: 100%;
-	height: 100vh;
-	/* background: url("../img/self1.jpg") top right;
+	height: 100vh;*/
+/* background: url("../img/self1.jpg") top right;
 	background-size: cover;
-	background-color: #e6e9e7; */
-}
+	background-color: #e6e9e7; 
+}*/ /*
 #hero .container {
 	padding-top: 70px;
 	position: relative;
@@ -434,44 +433,14 @@ h6 {
 }
 #hero .btn-about:hover {
 	background: #3dc8b7;
-}
-@media (min-width: 1024px) {
-	#hero {
-		background-attachment: fixed;
-	}
-}
-@media (max-width: 992px) {
-	#content-area:before {
-		content: "";
-		background: rgba(255, 255, 255, 0.8);
-		position: absolute;
-		bottom: 0;
-		top: 0;
-		left: 0;
-		right: 0;
-	}
-	.content-area h1 {
-		font-size: 28px;
-		line-height: 36px;
-	}
-	.content-area h2 {
-		font-size: 18px;
-		line-height: 24px;
-	}
-  .content-area .content p {
-	font-weight: 500;
-	font-size:16px;
-	color: #222222;
-}
-
-}
+} */
 
 @media (min-width: 500px) {
-    .content-area .content p {
-	font-weight: 500;
-	font-size:16px;
-	color: #222222;
-}
+	.content-area .content p {
+		font-weight: 500;
+		font-size: 16px;
+		color: #222222;
+	}
 }
 
 /*--------------------------------------------------------------
@@ -564,7 +533,7 @@ section {
 --------------------------------------------------------------*/
 .content-area {
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	background-color: #e6e9e7;
 	margin-top: 2%;
 }
@@ -574,9 +543,45 @@ section {
 	color: #222222;
 }
 
-
 .content-area .content p:last-child {
 	margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+	#content-area {
+		background-attachment: fixed;
+	}
+}
+@media (max-width: 992px) {
+	.content-area {
+		background-attachment: fixed;
+		background-color: #e6e9e7;
+	}
+	#content-area:before {
+		content: "";
+		background: rgba(255, 255, 255, 0.8);
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	.content-area h1 {
+		font-size: 28px;
+		line-height: 36px;
+	}
+	.content-area h2 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	.content-area .content p {
+		font-weight: 500;
+		font-size: 16px;
+		color: #222222;
+	}
+	.selfImgHolder {
+		text-align: center;
+	}
 }
 
 /*----------------------------------------------------------
@@ -592,26 +597,37 @@ section {
 	text-align: left;
 }
 
-.about_me_image {
+.self-img {
 	border: 4px solid var(--darkblue);
 	border-radius: 50%;
-	max-width: 100%;
-	max-height: 75%;
+	max-width: 60%;
+	max-height: 70%;
 	height: auto;
-	margin: left 10%;
 }
-
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
 .skills-section {
 	background-color: #d5d5d5;
+  border-radius: 10px;
+  text-align: center; 
+  margin:auto ,10px;
+  border:2px solid #294048;
+  width:90%;
+ 
+}
+
+.skill-div{
+  margin:4%,2%
 }
 .skill-item {
 	height: 100px;
 	margin: 1.5%;
+  padding:2%;
 	position: relative;
 	text-align: center;
+  
+
 }
 
 .skill-icon h3 {
@@ -970,9 +986,9 @@ section {
 	font-size: 20px;
 	color: #fff;
 	font-weight: 600;
-  opacity:1
+	opacity: 1;
 }
-.portfolio .portfolio-wrap .projectTech{
+.portfolio .portfolio-wrap .projectTech {
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 14px;
 	text-transform: uppercase;
@@ -1064,10 +1080,8 @@ section {
 .portfolio-details .portfolio-description p {
 	padding: 0;
 }
-.bottom-project-name-holder span{
-  
-  background-color: #444444;
-  
+.bottom-project-name-holder span {
+	background-color: #444444;
 }
 /*--------------------------------------------------------------
 # Contact

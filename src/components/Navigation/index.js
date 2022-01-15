@@ -20,17 +20,18 @@ const Navigation = () => {
 						</a>
 					</li>
 					<li>
-						<Link to={`/about`}>About</Link>
+						<Link to={`/projects`}>Portfolio</Link>
 					</li>
+					{/* <li>
+						<Link to={`/about`}>About</Link>
+					</li> */}
 					<li>
 						<a href="resume.html">Resume</a>
 					</li>
 					<li>
 						<a href="services.html">Services</a>
 					</li>
-					<li>
-						<Link to={`/projects`}>Portfolio</Link>
-					</li>
+
 					<li>
 						<a href="contact.html">Contact</a>
 					</li>
@@ -38,14 +39,20 @@ const Navigation = () => {
 				<i className="bi bi-list mobile-nav-toggle"></i>
 			</nav>
 
-    
-       <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
+			<div class="header-social-links">
+				<a href="#" class="twitter">
+					<i class="bi bi-twitter"></i>
+				</a>
+				<a href="#" class="facebook">
+					<i class="bi bi-facebook"></i>
+				</a>
+				<a href="#" class="instagram">
+					<i class="bi bi-instagram"></i>
+				</a>
+				<a href="#" class="linkedin">
+					<i class="bi bi-linkedin"></i>
+				</a>
+			</div>
 		</div>
 	);
 	// return (
