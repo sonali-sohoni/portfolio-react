@@ -15,9 +15,8 @@ const Navigation = () => {
 			<nav id="navbar" className="navbar order-last order-lg-0">
 				<ul>
 					<li>
-						<a className="active" href="index.html">
-							Home
-						</a>
+						{/* <a href="index.html">Home</a> */}
+						<Link to={`/`}>Home</Link>
 					</li>
 					<li>
 						<Link to={`/projects`}>Portfolio</Link>
@@ -26,30 +25,25 @@ const Navigation = () => {
 						<Link to={`/about`}>About</Link>
 					</li> */}
 					<li>
-						<a href="resume.html">Resume</a>
-					</li>
-					<li>
-						<a href="services.html">Services</a>
+						<Link to={`/resume`}>Resume</Link>
 					</li>
 
 					<li>
-						<a href="contact.html">Contact</a>
+						<a href={`/contact`}>Contact</a>
 					</li>
 				</ul>
 				<i className="bi bi-list mobile-nav-toggle"></i>
 			</nav>
 
 			<div class="header-social-links">
-				<a href="#" class="twitter">
-					<i class="bi bi-twitter"></i>
+				<a href="https://github.com/sonali-sohoni" class="github">
+					<i class="bi bi-github"></i>
 				</a>
-				<a href="#" class="facebook">
-					<i class="bi bi-facebook"></i>
-				</a>
-				<a href="#" class="instagram">
-					<i class="bi bi-instagram"></i>
-				</a>
-				<a href="#" class="linkedin">
+
+				<a
+					href="https://www.linkedin.com/in/sonali-sohoni-3652556/"
+					class="linkedin"
+				>
 					<i class="bi bi-linkedin"></i>
 				</a>
 			</div>
