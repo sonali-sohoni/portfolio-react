@@ -1,7 +1,7 @@
 import React from "react";
 
 const Projects = () => {
-  const projects = [
+	const projects = [
 		{
 			name: "CAMS-ii By CBS",
 			img: "creditunions.jpg",
@@ -44,11 +44,8 @@ const Projects = () => {
 			<div className="container">
 				<div className="section-title">
 					<h2>Portfolio</h2>
-					<p>
-						
-					</p>
+					<p></p>
 				</div>
-
 
 				<div
 					className="row portfolio-container"
@@ -76,7 +73,8 @@ const Projects = () => {
 											href={`assets/img/${project.img}`}
 											data-gallery="portfolioGallery"
 											className="portfolio-lightbox"
-											title="App 1"
+											title={project.footer}
+											target="_blank"
 										>
 											<i className="bx bx-plus"></i>
 										</a>

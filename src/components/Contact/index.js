@@ -25,7 +25,10 @@ const Contact = () => {
 		if(!errMsg) setFormState({ ...formState, [e.target.name]: e.target.value });
 	};
 
-	const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    	e.preventDefault();
+			console.log(formState);
+  };
 
 	return (
 		<section id="content-area" class="content-area">
@@ -35,9 +38,8 @@ const Contact = () => {
 					<h1>Contact Me</h1>
 					<form
 						onSubmit={handleSubmit}
-						method="post"
-						role="form"
-						class="php-email-form"
+				
+						
 					>
 						<div class="row">
 							<div class="col-md-6 form-group">

@@ -3,13 +3,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
-	const [nvExpand, setNvExpand] = useState(false);
-	const [nvColor, setNvColor] = useState(false);
-
 	return (
 		<div className="container-fluid d-flex justify-content-between align-items-center">
 			<h1 className="logo me-auto me-lg-0">
-				<a href="index.html">Sonali Sohoni</a>
+				<Link to={`/`}>Sonali Sohoni</Link>
 			</h1>
 
 			<nav id="navbar" className="navbar order-last order-lg-0">
