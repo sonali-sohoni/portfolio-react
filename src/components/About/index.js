@@ -28,7 +28,7 @@ const About = () => {
 							<div className="col-lg-6">
 								<ul>
 									<li
-										classname="pt-3"
+										className="pt-3"
 										style={{
 											listStyleType: "none",
 											textDecoration: "underline",
