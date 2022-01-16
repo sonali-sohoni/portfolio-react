@@ -5,11 +5,16 @@ import About from "./components/About";
 import Projects from "./components/projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+	HashRouter,
+	BrowserRouter as Router,
+	Route,
+	Switch,
+} from "react-router-dom";
 
 function App() {
 	return (
-		<Router>
+		<HashRouter basename="/">
 			<div>
 				<Header />
 
@@ -25,7 +30,7 @@ function App() {
 
 				<Footer />
 			</div>
-		</Router>
+		</HashRouter>
 	);
 }
 
