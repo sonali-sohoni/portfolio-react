@@ -4,7 +4,8 @@ import lm1 from "../../img/lm1.jpg";
 import history from "../../img/history.jpeg";
 import homes2 from "../../img/homes2.jpeg";
 import passwords from "../../img/passwords.jpg";
-
+import cubix1 from "../../img/cubix1.jpg";
+import sn from "../../img/sn.jpg";
 const Projects = () => {
 	const projects = [
 		{
@@ -36,11 +37,25 @@ const Projects = () => {
 			footer: "MyNeighbors",
 		},
 		{
+			name: "Social Network API",
+			img: sn,
+			tech: ["MongoDB", "Express.js", "Node.js", "Mongoose"],
+			link: "https://github.com/sonali-sohoni/social_network_api",
+			footer: "Social Network API",
+		},
+		{
 			name: "MERN",
 			img: passwords,
 			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
 			link: "#",
 			footer: "MERN",
+		},
+		{
+			name: "Deep Thoughts",
+			img: cubix1,
+			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
+			link: "https://github.com/sonali-sohoni/deep-thougths",
+			footer: "MERN -DeepThoughts",
 		},
 	];
 
