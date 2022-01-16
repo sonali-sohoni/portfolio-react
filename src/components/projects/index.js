@@ -1,5 +1,10 @@
 import React from "react";
 import creditUnions from "../../img/creditunions.jpg";
+import lm1 from "../../img/lm1.jpg";
+import history from "../../img/history.jpeg";
+import homes2 from "../../img/homes2.jpeg";
+import passwords from "../../img/passwords.jpg";
+
 const Projects = () => {
 	const projects = [
 		{
@@ -11,28 +16,28 @@ const Projects = () => {
 		},
 		{
 			name: "Lobby Management",
-			img: "lm1.jpg",
+			img: lm1,
 			tech: ["HTML5", "CSS3", "MySQL", "JS", "jQuery"],
 			link: "https://camsbycbs.com/",
 			footer: "Lobby Management",
 		},
 		{
 			name: "Discover History",
-			img: "history.jpeg",
+			img: history,
 			tech: ["HTML5", "CSS3", "JS", "jQuery"],
 			link: "https://cabralwilliams.github.io/discover-history/",
 			footer: "Discover History",
 		},
 		{
 			name: "MyNeighbors - neighborhood communication platform ",
-			img: "homes2.jpeg",
+			img: homes2,
 			tech: ["Node.js", "Express.js", "MySQL, Sequelize", "JS", "HTML5,CSS3"],
 			link: "https://myneighbor-app.herokuapp.com/",
 			footer: "MyNeighbors",
 		},
 		{
 			name: "MERN",
-			img: "passwords.jpg",
+			img: passwords,
 			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
 			link: "#",
 			footer: "MERN",
