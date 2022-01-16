@@ -13,7 +13,7 @@ const Navigation = () => {
 				<ul>
 					<li>
 						{/* <a href="index.html">Home</a> */}
-						<Link to={`/`}>Home</Link>
+						<Link to={`/`}>About Me</Link>
 					</li>
 					<li>
 						<Link to={`/projects`}>Portfolio</Link>

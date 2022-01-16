@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Resume = () => {
 	return (
@@ -6,14 +7,23 @@ const Resume = () => {
 			<div className="container" data-aos="fade-up">
 				<div className="section-title">
 					<h2>Resume</h2>
-					
 				</div>
 
 				<div className="row">
 					<div className="col-lg-6">
-						<h3 className="resume-title">Sumary</h3>
+						<h3 className="resume-title">
+							Sumary{" "}
+							<span>
+								<a target ="_blank"
+									href={`https://docs.google.com/document/d/1z07UnawgcAboF8EAZhEJfHXN3Sr_vwf0/edit?usp=sharing&ouid=108095245455891335250&rtpof=true&sd=true`}
+								>
+									View my resume
+								</a>
+							</span>
+						</h3>
 						<div className="resume-item pb-0">
 							<h4>Sonali Sohoni</h4>
+
 							<p>
 								<em>
 									Passionate, deadline-driven full stack web developer with 8+
