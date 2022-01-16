@@ -26,7 +26,7 @@ const Navigation = () => {
 					</li>
 
 					<li>
-						<a href={`/contact`}>Contact</a>
+						<Link to={`/contact`}>Contact</Link>
 					</li>
 				</ul>
 				<i className="bi bi-list mobile-nav-toggle"></i>
