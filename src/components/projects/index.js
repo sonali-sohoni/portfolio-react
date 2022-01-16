@@ -1,10 +1,10 @@
 import React from "react";
-
+import creditUnions from "../../img/creditunions.jpg";
 const Projects = () => {
 	const projects = [
 		{
 			name: "CAMS-ii By CBS",
-			img: "creditunions.jpg",
+			img: creditUnions,
 			tech: ["J2EE-Servlets", "HTML", "CSS", "JS", "jQuery", "MySQL"],
 			link: "https://camsbycbs.com/",
 			footer: "CAMS-ii By CBS",
@@ -56,7 +56,8 @@ const Projects = () => {
 						<div className="col-lg-4 col-md-6 portfolio-item filter-app">
 							<div className="portfolio-wrap">
 								<img
-									src={`assets/img/${project.img}`}
+									// src={`assets/img/${project.img}`}
+									src={[project.img]}
 									className="img-fluid"
 									alt=""
 								/>
@@ -70,7 +71,8 @@ const Projects = () => {
 									</ul>
 									<div className="portfolio-links">
 										<a
-											href={`assets/img/${project.img}`}
+											// href={`assets/img/${project.img}`}
+											href={[project.img]}
 											data-gallery="portfolioGallery"
 											className="portfolio-lightbox"
 											title={project.footer}
