@@ -1,9 +1,9 @@
 import React from "react";
 import self1 from "../../img/self1.jpg";
-import node1 from "../../img/node.png";
-import react1 from "../../img/react.png";
-import java1 from "../../img/java.png";
-import mongo1 from "../../img/mongo.png";
+import node from "../../img/node.png";
+import react from "../../img/react.png";
+import java from "../../img/java.png";
+import mongo from "../../img/mongo.png";
 import css1 from "../../img/css.png";
 import html1 from "../../img/html.png";
 import sql1 from "../../img/sql.png";
@@ -100,25 +100,25 @@ const About = () => {
 							<div className="row skill-div">
 								<article className="skill-item  col-sm-2">
 									<div className="skill-icon">
-										<img src={node1} alt="Java" />
+										<img src={node} alt="Java" />
 									</div>
 									<h6>Node.JS</h6>
 								</article>
 								<article className="skill-item   col-sm-2">
 									<div className="skill-icon">
-										<img src={react1} alt="Java" />
+										<img src={react} alt="Java" />
 									</div>
 									<h6>React</h6>
 								</article>
 								<article className="skill-item   col-sm-2">
 									<div className="skill-icon">
-										<img src={mongo1} alt="Java" />
+										<img src={mongo} alt="Java" />
 									</div>
 									<h6>MongoDB</h6>
 								</article>
 								<article className="skill-item col-sm-2">
 									<div className="skill-icon">
-										<img src={java1} alt="Java" />
+										<img src={java} alt="Java" />
 									</div>
 									<h6>Java J2EE-servlets</h6>
 								</article>
