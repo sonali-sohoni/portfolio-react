@@ -1,5 +1,5 @@
 import React from "react";
-
+import self1 from "../../img/self1.jpg";
 const About = () => {
 	return (
 		<section id="content-area my-4" className="content-area">
@@ -10,7 +10,7 @@ const About = () => {
 				</div>
 				<div className="row">
 					<div className="col-lg-4 selfImgHolder">
-						<img src="./assets/img/self1.jpg" className="self-img" alt="" />
+						<img src={self1} className="self-img" alt="" />
 					</div>
 					<div className="col-lg-8 pt-4 pt-lg-0 content">
 						<h3>I am a Full Stack Web Developer</h3>
