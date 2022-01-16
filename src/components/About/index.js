@@ -1,6 +1,7 @@
 import React from "react";
 import self1 from "../../img/self1.jpg";
 const About = () => {
+	console.log(self1);
 	return (
 		<section id="content-area my-4" className="content-area">
 			<div className="container">
