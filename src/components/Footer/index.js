@@ -12,7 +12,7 @@ const Footer = () => {
 					&copy;2022 All Rights Reserved
 				</div>
 				<div className="credits"></div>
-				<div className="header-social-links">
+				<div className="footer-social-links">
 					<a
 						href="https://github.com/sonali-sohoni"
 						className="github"

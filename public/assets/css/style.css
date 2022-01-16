@@ -690,3 +690,19 @@ section {
 #footer .credits a {
 	color: #34b7a7;
 }
+
+.footer-social-links {
+	padding-right: 15px;
+}
+.footer-social-links a {
+	/* color: #6f6f6f; */
+  color:#f3f3f3;
+	padding-left: 6px;
+	display: inline-block;
+	line-height: 0px;
+	transition: 0.3s;
+	font-size: 16px;
+}
+.footer-social-links a:hover {
+	color: #34b7a7;
+}
