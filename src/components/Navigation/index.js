@@ -33,13 +33,18 @@ const Navigation = () => {
 			</nav>
 
 			<div className="header-social-links">
-				<a href="https://github.com/sonali-sohoni" className="github">
+				<a
+					href="https://github.com/sonali-sohoni"
+					className="github"
+					target="_blank"
+				>
 					<i className="bi bi-github"></i>
 				</a>
 
 				<a
 					href="https://www.linkedin.com/in/sonali-sohoni-3652556/"
 					className="linkedin"
+					target="_blank"
 				>
 					<i className="bi bi-linkedin"></i>
 				</a>
