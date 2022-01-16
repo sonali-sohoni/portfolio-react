@@ -1,5 +1,14 @@
 import React from "react";
 import self1 from "../../img/self1.jpg";
+import node1 from "../../img/node.png";
+import react1 from "../../img/react.png";
+import java1 from "../../img/java.png";
+import mongo1 from "../../img/mongo.png";
+import css1 from "../../img/css.png";
+import html1 from "../../img/html.png";
+import sql1 from "../../img/sql.png";
+import js1 from "../../img/js.png";
+
 const About = () => {
 	console.log(self1);
 	return (
@@ -91,25 +100,25 @@ const About = () => {
 							<div className="row skill-div">
 								<article className="skill-item  col-sm-2">
 									<div className="skill-icon">
-										<img src="/assets/img/node.png" alt="Java" />
+										<img src={node1} alt="Java" />
 									</div>
 									<h6>Node.JS</h6>
 								</article>
 								<article className="skill-item   col-sm-2">
 									<div className="skill-icon">
-										<img src="/assets/img/react.png" alt="Java" />
+										<img src={react1} alt="Java" />
 									</div>
 									<h6>React</h6>
 								</article>
 								<article className="skill-item   col-sm-2">
 									<div className="skill-icon">
-										<img src="/assets/img/mongo.png" alt="Java" />
+										<img src={mongo1} alt="Java" />
 									</div>
 									<h6>MongoDB</h6>
 								</article>
 								<article className="skill-item col-sm-2">
 									<div className="skill-icon">
-										<img src="/assets/img/java.png" alt="Java" />
+										<img src={java1} alt="Java" />
 									</div>
 									<h6>Java J2EE-servlets</h6>
 								</article>
@@ -117,26 +126,26 @@ const About = () => {
 							<div className="row my-3">
 								<article className="skill-item   col-sm-2">
 									<div className="skill-icon">
-										<img src="/assets/img/js.png" alt="Java" />
+										<img src={js1} alt="Java" />
 									</div>
 									<h6>Java Scripts</h6>
 								</article>
 
 								<article className="skill-item    col-sm-2 ">
 									<div className="skill-icon">
-										<img src="/assets/img/sql.png" alt="Java" />
+										<img src={sql1} alt="Java" />
 									</div>
 									<h6>SQL</h6>
 								</article>
 								<article className="skill-item col-sm-2">
 									<div className="skill-icon">
-										<img src="/assets/img/html.png" alt="Java" />
+										<img src={html1} alt="Java" />
 									</div>
 									<h6>HTML 5</h6>
 								</article>
 								<article className="skill-item  col-sm-2">
 									<div className="skill-icon">
-										<img src="/assets/img/css.png" alt="Java" />
+										<img src={css1} alt="Java" />
 									</div>
 									<h6>CSS 3</h6>
 								</article>
