@@ -63,7 +63,7 @@ const Projects = () => {
 								<div className="portfolio-info">
 									<h4>{project.name} </h4>
 									{/* <p>App</p> */}
-									<ul class="projectTech">
+									<ul className="projectTech">
 										{project.tech.map((t) => (
 											<li>{t}</li>
 										))}

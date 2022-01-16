@@ -32,16 +32,16 @@ const Navigation = () => {
 				<i className="bi bi-list mobile-nav-toggle"></i>
 			</nav>
 
-			<div class="header-social-links">
-				<a href="https://github.com/sonali-sohoni" class="github">
-					<i class="bi bi-github"></i>
+			<div className="header-social-links">
+				<a href="https://github.com/sonali-sohoni" className="github">
+					<i className="bi bi-github"></i>
 				</a>
 
 				<a
 					href="https://www.linkedin.com/in/sonali-sohoni-3652556/"
-					class="linkedin"
+					className="linkedin"
 				>
-					<i class="bi bi-linkedin"></i>
+					<i className="bi bi-linkedin"></i>
 				</a>
 			</div>
 		</div>

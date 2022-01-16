@@ -3,16 +3,16 @@ import React from "react";
 const Resume = () => {
 	return (
 		<section id="content-area  my-4" className="content-area resume">
-			<div class="container" data-aos="fade-up">
-				<div class="section-title">
+			<div className="container" data-aos="fade-up">
+				<div className="section-title">
 					<h2>Resume</h2>
 					
 				</div>
 
-				<div class="row">
-					<div class="col-lg-6">
-						<h3 class="resume-title">Sumary</h3>
-						<div class="resume-item pb-0">
+				<div className="row">
+					<div className="col-lg-6">
+						<h3 className="resume-title">Sumary</h3>
+						<div className="resume-item pb-0">
 							<h4>Sonali Sohoni</h4>
 							<p>
 								<em>
@@ -37,8 +37,8 @@ const Resume = () => {
 							</p>
 						</div>
 
-						<h3 class="resume-title">Education</h3>
-						<div class="resume-item">
+						<h3 className="resume-title">Education</h3>
+						<div className="resume-item">
 							<h4>Cerfified Full Stack Web Developer</h4>
 							<h5>2022</h5>
 							<p>
@@ -46,14 +46,14 @@ const Resume = () => {
 							</p>
 						</div>
 
-						<div class="resume-item">
+						<div className="resume-item">
 							<h4>Masters of Computer Science</h4>
 							<h5>2009 - 2010</h5>
 							<p>
 								<em>North Carolina State University, NC</em>
 							</p>
 						</div>
-						<div class="resume-item">
+						<div className="resume-item">
 							<h4>Bachelors of Computer Science</h4>
 							<h5>2004 </h5>
 							<p>
@@ -61,9 +61,9 @@ const Resume = () => {
 							</p>
 						</div>
 					</div>
-					<div class="col-lg-6">
-						<h3 class="resume-title">Professional Experience</h3>
-						<div class="resume-item">
+					<div className="col-lg-6">
+						<h3 className="resume-title">Professional Experience</h3>
+						<div className="resume-item">
 							<h4>Software Developer</h4>
 							<h5>2013 - Present</h5>
 							<p>
@@ -115,7 +115,7 @@ const Resume = () => {
 								</ul>
 							</p>
 						</div>
-						<div class="resume-item">
+						<div className="resume-item">
 							<h4>Full Stack Web Development Projects Work </h4>
 							<h5>2021 - 2022</h5>
 							<p>

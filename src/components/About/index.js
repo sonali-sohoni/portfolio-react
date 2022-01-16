@@ -100,8 +100,8 @@ const About = () => {
 									</div>
 									<h6>React</h6>
 								</article>
-								<article class="skill-item   col-sm-2">
-									<div class="skill-icon">
+								<article className="skill-item   col-sm-2">
+									<div className="skill-icon">
 										<img src="/assets/img/mongo.png" alt="Java" />
 									</div>
 									<h6>MongoDB</h6>
@@ -121,8 +121,8 @@ const About = () => {
 									<h6>Java Scripts</h6>
 								</article>
 
-								<article class="skill-item    col-sm-2 ">
-									<div class="skill-icon">
+								<article className="skill-item    col-sm-2 ">
+									<div className="skill-icon">
 										<img src="/assets/img/sql.png" alt="Java" />
 									</div>
 									<h6>SQL</h6>
