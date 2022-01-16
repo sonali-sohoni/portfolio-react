@@ -31,32 +31,32 @@ const Contact = () => {
   };
 
 	return (
-		<section id="content-area" class="content-area">
-			<div class="row mt-5">
-				<div class="col-lg-4"></div>
-				<div class="col-lg-5 mt-5 mt-lg-0">
+		<section id="content-area" className="content-area">
+			<div className="row mt-5">
+				<div className="col-lg-4"></div>
+				<div className="col-lg-5 mt-5 mt-lg-0">
 					<h1>Contact Me</h1>
 					<form
 						onSubmit={handleSubmit}
 				
 						
 					>
-						<div class="row">
-							<div class="col-md-6 form-group">
+						<div className="row">
+							<div className="col-md-6 form-group">
 								<input
 									type="text"
 									name="name"
-									class="form-control"
+									className="form-control"
 									id="name"
 									placeholder="Your Name"
 									required
 									onBlur={handleChange}
 								/>
 							</div>
-							<div class="col-md-6 form-group mt-3 mt-md-0">
+							<div className="col-md-6 form-group mt-3 mt-md-0">
 								<input
 									type="email"
-									class="form-control"
+									className="form-control"
 									name="email"
 									id="email"
 									placeholder="Your Email"
@@ -65,10 +65,10 @@ const Contact = () => {
 								/>
 							</div>
 						</div>
-						<div class="form-group mt-3">
+						<div className="form-group mt-3">
 							<input
 								type="text"
-								class="form-control"
+								className="form-control"
 								name="subject"
 								id="subject"
 								placeholder="Subject"
@@ -76,9 +76,9 @@ const Contact = () => {
 								onBlur={handleChange}
 							/>
 						</div>
-						<div class="form-group mt-3">
+						<div className="form-group mt-3">
 							<textarea
-								class="form-control"
+								className="form-control"
 								name="message"
 								rows="5"
 								placeholder="Message"
@@ -87,15 +87,15 @@ const Contact = () => {
 							></textarea>
 						</div>
 
-						<div class="text-center mt-5">
+						<div className="text-center mt-5">
 							<button type="submit">Send Message</button>
 						</div>
 					</form>
 				</div>
-				<div class="col-lg-3 mt-5 mt-lg-0"></div>
+				<div className="col-lg-3 mt-5 mt-lg-0"></div>
 				{/* <form id="contact-form" onSubmit={handleSubmit}>
-          <div class="row">
-					 <div class="col-md-6 form-group">
+          <div className="row">
+					 <div className="col-md-6 form-group">
 						<label htmlFor="name">Name</label>
 						<input
 							type="text"
@@ -105,7 +105,7 @@ const Contact = () => {
 							onBlur={handleChange}
 						></input>
 					</div>
-				 <div class="col-md-6 form-group">
+				 <div className="col-md-6 form-group">
 						<label htmlFor="email">Email</label>
 						<input
 							type="email"
@@ -115,7 +115,7 @@ const Contact = () => {
 							onBlur={handleChange}
 						></input>
 					</div>
-					 <div class="col-md-6 form-group">
+					 <div className="col-md-6 form-group">
 						<label htmlFor="message">Message</label>
 						<textarea
 							id="message"
