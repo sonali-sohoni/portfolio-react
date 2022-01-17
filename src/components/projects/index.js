@@ -3,7 +3,7 @@ import creditUnions from "../../img/creditunions.jpg";
 import lm1 from "../../img/lm1.jpg";
 import history from "../../img/history.jpeg";
 import homes2 from "../../img/homes2.jpeg";
-import passwords from "../../img/passwords.jpg";
+import csoon from "../../img/csoon.jpg";
 import cubix1 from "../../img/cubix1.jpg";
 import sn from "../../img/sn.jpg";
 const Projects = () => {
@@ -45,7 +45,7 @@ const Projects = () => {
 		},
 		{
 			name: "MERN",
-			img: passwords,
+			img: csoon,
 			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
 			link: "#",
 			footer: "MERN",
