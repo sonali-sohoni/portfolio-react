@@ -98,6 +98,7 @@ const About = () => {
 						</div>
 						<div className="container my-4 skills-section">
 							<div className="row skill-div">
+								<h2 class="section-heading">Skills</h2>
 								<article className="skill-item  col-sm-2">
 									<div className="skill-icon">
 										<img src={node} alt="Java" />
