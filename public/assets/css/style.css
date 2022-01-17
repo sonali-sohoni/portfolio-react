@@ -696,7 +696,7 @@ section {
 }
 .footer-social-links a {
 	/* color: #6f6f6f; */
-  color:#f3f3f3;
+  color:var(--headerColor)
 	padding-left: 6px;
 	display: inline-block;
 	line-height: 0px;
