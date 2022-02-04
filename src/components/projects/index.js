@@ -6,6 +6,7 @@ import homes2 from "../../img/homes2.jpeg";
 import csoon from "../../img/csoon.jpg";
 import cubix1 from "../../img/cubix1.jpg";
 import sn from "../../img/sn.jpg";
+import project6 from "../../img/project6.jpg";
 const Projects = () => {
 	const projects = [
 		{
@@ -23,6 +24,13 @@ const Projects = () => {
 			footer: "Lobby Management",
 		},
 		{
+			name: "The Missing One",
+			img: project6,
+			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
+			link: "https://lit-scrubland-68499.herokuapp.com/",
+			footer: "MERN",
+		},
+		{
 			name: "Discover History",
 			img: history,
 			tech: ["HTML5", "CSS3", "JS", "jQuery"],
@@ -36,13 +44,13 @@ const Projects = () => {
 			link: "https://myneighbor-app.herokuapp.com/",
 			footer: "MyNeighbors",
 		},
-		{
-			name: "Social Network API",
-			img: sn,
-			tech: ["MongoDB", "Express.js", "Node.js", "Mongoose"],
-			link: "https://github.com/sonali-sohoni/social_network_api",
-			footer: "Social Network API",
-		},
+		// {
+		// 	name: "Social Network API",
+		// 	img: sn,
+		// 	tech: ["MongoDB", "Express.js", "Node.js", "Mongoose"],
+		// 	link: "https://github.com/sonali-sohoni/social_network_api",
+		// 	footer: "Social Network API",
+		// },
 		{
 			name: "MERN",
 			img: csoon,
@@ -72,8 +80,11 @@ const Projects = () => {
 					data-aos="fade-up"
 					data-aos-delay="200"
 				>
-					{projects.map((project) => (
-						<div className="col-lg-4 col-md-6 portfolio-item filter-app">
+					{projects.map((project, i) => (
+						<div
+							className="col-lg-4 col-md-6 portfolio-item filter-app"
+							key={i}
+						>
 							<div className="portfolio-wrap">
 								<img
 									// src={`assets/img/${project.img}`}
@@ -85,8 +96,8 @@ const Projects = () => {
 									<h4>{project.name} </h4>
 									{/* <p>App</p> */}
 									<ul className="projectTech">
-										{project.tech.map((t) => (
-											<li>{t}</li>
+										{project.tech.map((t, i) => (
+											<li key={i}>{t}</li>
 										))}
 									</ul>
 									<div className="portfolio-links">
@@ -111,7 +122,7 @@ const Projects = () => {
 										</a>
 									</div>
 								</div>
-								<h6 classname="my1 text-center bottom-project-name-holder">
+								<h6 className="my1 text-center bottom-project-name-holder">
 									<a href="https://camsbycbs.com/" target="_blank">
 										<span style={{ textAlign: "center" }}>
 											<strong>{`  ${project.footer}`}</strong>
