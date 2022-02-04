@@ -51,20 +51,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 
 ## Screenshots
-
-
-
-## Video links
-
-https://watch.screencastify.com/v/W2HKn1NKS44Fh7FkFC7d    Get All users , get single user, get all thoughts, get single thought,create new user,update user
-
-https://watch.screencastify.com/v/lY2cpJAg3CGNWfoMAhRg   create new thought update single thought delete thought
-
-https://watch.screencastify.com/v/KFIKdAIXepLLpc7BmtOk   add new friend delete friend add reaction
-
-https://watch.screencastify.com/v/ob2kdHkf05dLxC5mULFH   delete reaction
-
-https://watch.screencastify.com/v/ntFeMlryGca5kSPgv9nT   delete single user
+![lanidng](https://user-images.githubusercontent.com/88642738/149684130-41ce5441-a180-4758-b6cf-5715a73f327d.png)
+![projects](https://user-images.githubusercontent.com/88642738/149684131-2407ec85-c80f-4770-83ee-f573c3dff756.png)
+![resume](https://user-images.githubusercontent.com/88642738/149684135-9b896ea2-9a43-4778-9057-b7b9a1559a44.png)
+![contact](https://user-images.githubusercontent.com/88642738/149684128-d375ba9b-2b8b-4ee0-b4b7-ad0a97e616df.png)
 
 
    
