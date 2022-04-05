@@ -15,56 +15,55 @@ const Projects = () => {
 			tech: ["J2EE-Servlets", "HTML", "CSS", "JS", "jQuery", "MySQL"],
 			link: "https://camsbycbs.com/",
 			footer: "CAMS-ii By CBS",
+			desc: "Financial product suite catering to the Credit Unions",
 		},
 		{
 			name: "Lobby Management",
 			img: lm1,
 			tech: ["HTML5", "CSS3", "MySQL", "JS", "jQuery"],
 			link: "https://camsbycbs.com/",
-			footer: "Lobby Management",
+			footer:
+				"Lobby Management - The best app for Admin professionals to check in clients, and visitors and provide the best quality service possible. ",
 		},
 		{
 			name: "The Missing One",
 			img: project6,
 			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
 			link: "https://lit-scrubland-68499.herokuapp.com/",
-			footer: "MERN",
+			footer:
+				"When time is of the essence, The Missing One allows you to notify the community that a person is missing and share as much information possible about that person.",
 		},
 		{
 			name: "Discover History",
 			img: history,
 			tech: ["HTML5", "CSS3", "JS", "jQuery"],
 			link: "https://cabralwilliams.github.io/discover-history/",
-			footer: "Discover History",
+			footer:
+				"Discover History -Learn what happened today or any day with Discover History!",
 		},
 		{
 			name: "MyNeighbors - neighborhood communication platform ",
 			img: homes2,
 			tech: ["Node.js", "Express.js", "MySQL, Sequelize", "JS", "HTML5,CSS3"],
 			link: "https://myneighbor-app.herokuapp.com/",
-			footer: "MyNeighbors",
+			footer:
+				"MyNeighbors - The must-have app to track neighborhood events news and services",
+		},
+		{
+			name: "Social Network API",
+			img: sn,
+			tech: ["MongoDB", "Express.js", "Node.js", "Mongoose"],
+			link: "https://github.com/sonali-sohoni/social_network_api",
+			footer:
+				"Social Network API - This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. You’ll use Express.js for routing, a MongoDB database, and the Mongoose ODM.",
 		},
 		// {
-		// 	name: "Social Network API",
-		// 	img: sn,
-		// 	tech: ["MongoDB", "Express.js", "Node.js", "Mongoose"],
-		// 	link: "https://github.com/sonali-sohoni/social_network_api",
-		// 	footer: "Social Network API",
+		// 	name: "Deep Thoughts",
+		// 	img: cubix1,
+		// 	tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
+		// 	link: "https://github.com/sonali-sohoni/deep-thougths",
+		// 	footer: "MERN -DeepThoughts",
 		// },
-		{
-			name: "MERN",
-			img: csoon,
-			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
-			link: "#",
-			footer: "MERN",
-		},
-		{
-			name: "Deep Thoughts",
-			img: cubix1,
-			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
-			link: "https://github.com/sonali-sohoni/deep-thougths",
-			footer: "MERN -DeepThoughts",
-		},
 	];
 
 	return (
