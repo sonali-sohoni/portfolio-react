@@ -31,8 +31,7 @@ const Projects = () => {
 			img: project6,
 			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
 			link: "https://lit-scrubland-68499.herokuapp.com/",
-			footer:
-				"The Missing One - Community Helper App allows you to share information about a missing person and join the efforts to find him/her.",
+			footer: "The Missing One",
 		},
 		{
 			name: "Discover History",
@@ -43,7 +42,7 @@ const Projects = () => {
 			footer: "Discover History",
 		},
 		{
-			name: "MyNeighbors - neighborhood communication platform ",
+			name: "MyNeighbors",
 			desc: " The must-have app to track neighborhood events news and services",
 			img: homes2,
 			tech: ["Node.js", "Express.js", "MySQL, Sequelize", "JS", "HTML5,CSS3"],
@@ -94,7 +93,7 @@ const Projects = () => {
 								/>
 								<div className="portfolio-info">
 									<h4>{project.name} </h4>
-									<h6>{project.desc}</h6>
+									<h6 style={{ color: white }}>{project.desc}</h6>
 									{/* <p>App</p> */}
 									<ul className="projectTech">
 										{project.tech.map((t, i) => (
