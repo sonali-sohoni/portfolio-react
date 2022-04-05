@@ -11,51 +11,52 @@ const Projects = () => {
 	const projects = [
 		{
 			name: "CAMS-ii By CBS",
+			desc: "The financial product suite catering to the Credit Unions",
 			img: creditUnions,
 			tech: ["J2EE-Servlets", "HTML", "CSS", "JS", "jQuery", "MySQL"],
 			link: "https://camsbycbs.com/",
-			footer:
-				"CAMS-ii By CBS Financial product suite catering to the Credit Unions",
+			footer: "CAMS-ii By CBS ",
 		},
 		{
 			name: "Lobby Management",
+			desc: "- The best app for Admin professionals to check in clients, and visitors and provide the best quality service possible.",
 			img: lm1,
 			tech: ["HTML5", "CSS3", "MySQL", "JS", "jQuery"],
 			link: "https://camsbycbs.com/",
-			footer:
-				"Lobby Management - The best app for Admin professionals to check in clients, and visitors and provide the best quality service possible. ",
+			footer: "Lobby Management ",
 		},
 		{
 			name: "The Missing One",
+			desc: "The community Helper App allows you to share information about a missing person and join the efforts to find him/her.",
 			img: project6,
 			tech: ["MongoDB", "Express.js", "Node.js", "React", "GraphQL"],
 			link: "https://lit-scrubland-68499.herokuapp.com/",
 			footer:
-				"When time is of the essence, The Missing One allows you to notify the community that a person is missing and share as much information possible about that person.",
+				"The Missing One - Community Helper App allows you to share information about a missing person and join the efforts to find him/her.",
 		},
 		{
 			name: "Discover History",
+			desc: "Discover History -Learn what happened today or any day with Discover History!",
 			img: history,
 			tech: ["HTML5", "CSS3", "JS", "jQuery"],
 			link: "https://cabralwilliams.github.io/discover-history/",
-			footer:
-				"Discover History -Learn what happened today or any day with Discover History!",
+			footer: "Discover History",
 		},
 		{
 			name: "MyNeighbors - neighborhood communication platform ",
+			desc: " The must-have app to track neighborhood events news and services",
 			img: homes2,
 			tech: ["Node.js", "Express.js", "MySQL, Sequelize", "JS", "HTML5,CSS3"],
 			link: "https://myneighbor-app.herokuapp.com/",
-			footer:
-				"MyNeighbors - The must-have app to track neighborhood events news and services",
+			footer: "MyNeighbors",
 		},
 		{
 			name: "Social Network API",
+			desc: " The API to help you to build your own social network web application to enable users to share their thoughts, react to other person's thoughts, and create a friend list.",
 			img: sn,
 			tech: ["MongoDB", "Express.js", "Node.js", "Mongoose"],
 			link: "https://github.com/sonali-sohoni/social_network_api",
-			footer:
-				"Social Network API - This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+			footer: "Social Network API",
 		},
 		// {
 		// 	name: "Deep Thoughts",
@@ -93,6 +94,7 @@ const Projects = () => {
 								/>
 								<div className="portfolio-info">
 									<h4>{project.name} </h4>
+									<h6>{project.desc}</h6>
 									{/* <p>App</p> */}
 									<ul className="projectTech">
 										{project.tech.map((t, i) => (
@@ -121,8 +123,8 @@ const Projects = () => {
 										</a>
 									</div>
 								</div>
-								<h6 className="my1 text-center ">					
-									<a href="https://camsbycbs.com/" target="_blank">
+								<h6 className="my1 text-center ">
+									<a href={project.link} target="_blank">
 										<span style={{ textAlign: "center" }}>
 											<strong>{`  ${project.footer}`}</strong>
 										</span>
