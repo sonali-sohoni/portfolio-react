@@ -14,8 +14,8 @@ const Projects = () => {
 			img: creditUnions,
 			tech: ["J2EE-Servlets", "HTML", "CSS", "JS", "jQuery", "MySQL"],
 			link: "https://camsbycbs.com/",
-			footer: "CAMS-ii By CBS",
-			desc: "Financial product suite catering to the Credit Unions",
+			footer:
+				"CAMS-ii By CBS Financial product suite catering to the Credit Unions",
 		},
 		{
 			name: "Lobby Management",
